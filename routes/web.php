@@ -20,5 +20,6 @@ Route::get('/php', function () {
 });
 Route::get("Token","Api\TestController@index");
 Route::get("Token1","Api\TestController@token");
+Route::get("Token2","Api\TestController@token1");
 
 
