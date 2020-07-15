@@ -18,3 +18,4 @@ Route::get('/', function () {
 Route::get('/php', function () {
      phpinfo();
 });
+Route::get("Token","Api\TestController@index");
